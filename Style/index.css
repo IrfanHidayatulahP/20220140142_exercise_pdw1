@@ -1,0 +1,15 @@
+/* Membuat desain untuk body */
+body {
+    background-color: aquamarine;
+}
+
+/* Membuat desain dari class link */
+.link {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Ubuntu" sans-serif;
+    font-style: oblique;
+    color: darkblue;
+}
+ 

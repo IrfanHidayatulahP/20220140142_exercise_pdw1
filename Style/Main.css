@@ -1,0 +1,62 @@
+/* Membuat desain untuk body */
+body {
+    background-color: rgb(230, 14, 14);
+    font-family: "Ubuntu "sans-serif;
+    font-style: italic;
+}
+
+/* Membuat desain class container dengan membuat itemnya menjadi ditengah */
+.Container {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Merubah warna background pada class main-content */
+.main-content {
+    background-color: rgba(110, 197, 214, 0.8);
+    flex-grow: 1;
+}
+
+/* Mengubah letak gambar di class baris 1 menjadi ditengah */
+.Container .main-content .baris1 img {
+    margin-left: 40%;
+    margin-right: 50%;
+}
+
+/* Mengubah letak gambar di class baris 2 menjadi ditengah */
+.Container .main-content .baris2 img {
+    margin-left: 40%;
+    margin-right: 50%;
+}
+
+/* Mengubah font pada class baris1 bagian h1 */
+.Container .main-content .baris1 h1 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Mengubah font pada class baris1 bagian h2 */
+.Container .main-content .baris1 h2 {
+    font-size: 20px;
+}
+
+/* Mengubah font pada class baris2 bagian h2 */
+.Container .main-content .baris2 h2 {
+    font-size: 20px;
+}
+
+/* Mengubah font pada class baris3 bagian h2 */
+.Container .main-content .baris3 h2 {
+    font-size: 20px;
+}
+
+/* Mengubah desaign footer menjadi ditengah */
+footer {
+    text-align: center;
+    font-family: "Ubuntu" sans-serif;
+    font-size: 25px;
+}

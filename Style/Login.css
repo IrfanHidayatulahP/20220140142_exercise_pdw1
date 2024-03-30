@@ -1,0 +1,45 @@
+/* Membuat desain untuk body */
+body {
+    background-color: darkblue;
+}
+
+/* Membuat desain class formcardbox dan ditempatkan ditengah */
+.formcardbox {
+    border-radius: 45px;
+    box-shadow: 0 25px 45px rgba(181, 68, 68, 0.766);
+    padding: 20px;
+    text-align: center;
+    width: 20%;
+    height: auto;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 38%;
+    margin-right: 50%;
+    background-image: linear-gradient(to right, #ffcc00, #ff9900);
+    opacity: 0.8;
+}
+
+/* Membuat desain untuk alert login*/
+.alert-container {
+    display: none;
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Membuat desain untuk font alert login*/
+.alert {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+}
