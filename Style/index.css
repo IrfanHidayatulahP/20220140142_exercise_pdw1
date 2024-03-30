@@ -12,3 +12,14 @@ body {
     font-style: oblique;
     color: darkblue;
 }
+
+p {
+    font-family: "Ubuntu" sans-serif;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
